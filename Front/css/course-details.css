@@ -205,11 +205,11 @@
     width: 30px;
   }
   .footer-bottom{
-    height: 60px;
+    height: 80px;
     background-color:#2C2B5E ;
   }
   .footer-bottom p{
-    padding-top: 18px;
+    padding-top: 20px;
     color: rgb(180, 175, 175);
   }
   .footer-bottom a{
@@ -218,7 +218,7 @@
     font-weight: 600;
   }
   .main-footer{
-    height: 48vb;
+    height: 43vb;
   }
   .img2 img{
     width: 100%;
