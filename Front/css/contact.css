@@ -1,0 +1,285 @@
+
+* {
+    text-decoration: none;
+    list-style: none;
+  }
+  .haveany p{
+    color: #fff;
+  }
+  .haveany{
+    background-color: red;
+  }
+   .buttons{
+    background-color: #2C2B5E;
+   }
+  .buttons li {
+    padding-top: 20px;
+    padding-left: 90px;
+  }
+  .buttons li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+  .buttons li a:hover {
+    color: red;
+  }
+  p {
+    color: #000000;
+    font-size: 15px;
+  }
+  .navbar2 ul{
+  padding-left: 100px;
+  }
+  .navbar2 ul li{
+    padding: 17px;
+  }
+  .navbar2 ul li a{
+    text-decoration: none;
+    color: #000000;
+  }
+  .navbar2{
+    height: 140px;
+    background-color: #ffffff;
+    
+  }
+  .searchbut a{
+    transition: 0.5s;
+    color: #000000;
+  }
+  .ahref{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: #000000;
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+  .ahref i{
+    color: #ffffff;
+    padding: 10px 10px;
+  }
+  .ahref:hover{
+    background-color: red;
+  }
+  
+  .img1 img{
+    width: 240px;
+    height: 100px;
+  }
+  .backimg{
+  background: rgba(0, 0, 0, 0) url("/img/banner.jpg") no-repeat scroll center center / cover;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  height: 300px;  
+  filter: brightness(20%);    
+  }
+  .aboutC{
+  padding-top: 120px;
+  font-size: 40px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 1;
+  position: absolute;
+  }
+  .buttonsearch button{
+    width: 200px;
+    font-size: 17px;
+    color: #fff;
+    background-color: red;
+    margin-bottom: 10px;
+  
+  }
+  .searchcourses{
+    background: #2C2B5E;
+     color: #fff; 
+  }
+  .searchcourses h1{
+  font-weight: 700;
+  font-size: 22px;
+  padding: 16px 93px 16px 27px;
+  font-family: 'Open Sans', sans-serif;
+  }
+  .coursecontent a{
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+  }
+  .coursecontent button{
+    background-color: red;
+  }
+  .coursecontent button a{
+    color: white;
+  }
+  .coursecontent h3 a:hover{
+    color: red;
+  }
+  .coursecontent button:hover{
+    background-color: #2C2B5E;
+    color: white;
+  }
+  .course-img img:hover{
+    filter: brightness(80%);
+    scale: 1.01;
+  }
+  .emailsend{
+    padding-top: 30px;
+  }
+  .emailsend input{
+     margin-left: 150px;
+    height: 45px;
+    width: 700px;
+  }
+  .emailsend button{
+    color: #fff;
+    transition: 0.3s;
+    background-color: red;
+  }
+  .emailsend button:hover{
+    background-color:#2C2B5E;
+  }
+  .subscribe-content h2{
+    text-transform: uppercase;
+  }
+  .subscribe-content p{
+    color: gray;
+    font-size: 14px;
+  }
+  .subscribe-area {
+    height: 40vb;
+    background-color: rgb(245, 243, 243);
+    padding-top: 100px;
+  }
+  
+  .footer-social ul li{
+    display: inline-block;
+    padding: 10px;
+  }
+  .footer-social ul li a{
+    transition: 0.5s;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  .footer-social ul li a:hover{
+    background-color: red;
+  }
+  .footer-social ul li a i:hover{
+    color: #fff;
+  }
+  .footer-social ul li i{
+    transition: 0.4s;
+    padding: 11px 11px; 
+    color: #000000;
+  }
+  .single-widget ul li {
+    padding: 3px;
+  }
+  .single-widget p{
+    font-size: 13px;
+    color: gray;
+  }
+  .single-widget h4{
+    font-size: 17px;
+  
+  }
+  .single-widget ul li a{
+    font-size: 12px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: gray;
+  }
+  .single-widget ul li a:hover{
+    color: red;
+  }
+  .single-widget hr{
+   
+    color: rgb(61, 61, 61);
+    border: 1px solid black;
+    width: 30px;
+  }
+  .footer-bottom{
+    height: 60px;
+    background-color:#2C2B5E ;
+  }
+  .footer-bottom p{
+    padding-top: 18px;
+    color: rgb(180, 175, 175);
+  }
+  .footer-bottom a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  .main-footer{
+    height: 48vb;
+  }
+  .xerite{
+    filter: brightness(45%);
+  }
+  .contact-area{
+    height: 800px;
+  }
+  .contact-contents{
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 0.1px solid rgb(185, 183, 183);
+  }
+  .contact-contents .single-contact{
+    padding: 20px;
+  }
+  .contact-contents .contact-icon{
+    display: block;
+    margin-left: 160px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .contact-icon img{
+    padding-top: 5px;
+  }
+  .contact-add p{
+    color: gray;
+  }
+  .contact-add h3{
+    font-size: 19px;
+  }
+  .reply-area input{
+    width: 650px;
+    height: 50px;
+  }
+  .reply-area textarea{
+    width: 650px;
+  }
+  .reply-area  button{
+    width: 150px;
+    height: 36px;
+    color: #fff;
+    background-color: #2C2B5E;
+    transition: 0.5s;
+  }
+  .reply-area  button:hover{
+    background-color: red;
+  }
+  .reply-area h3{
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .reply-area .aboutp{
+    font-size: 15px;
+    color: gray;
+  }
+
+
+
+
+
+  
