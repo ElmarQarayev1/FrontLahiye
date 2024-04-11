@@ -1,8 +1,9 @@
 let urlParams = new URLSearchParams(window.location.search);
 let courseId = urlParams.get("id");
 
-let courseDetailsBox=document.querySelector(".courseDetails");
-
+loadCourses();
+  function loadCourses(){
+  let courseDetailsBox=document.querySelector(".courseDetails");
 fetch(`http://localhost:5000/courses/${courseId}`)
   .then(response => response.json())
   .then(course => {
@@ -12,14 +13,12 @@ fetch(`http://localhost:5000/courses/${courseId}`)
     aboutCourse.innerText = course.name;
     let courseDetails=createCourseDetails(course);
 courseDetailsBox.innerHTML=courseDetails;
-
   })
   .catch(error => {
     console.error("Error occurred: " + error);
   });
-
+  }
   function createCourseDetails(course){
-
     let courseBox=`<div class="course-details-right">
     <h3 class="pt-5 pl-4 pb-3">COURSE FEATURES</h3>
     <ul>
@@ -34,5 +33,4 @@ courseDetailsBox.innerHTML=courseDetails;
     <h3 class="red pt-1 pl-4">COURSE FEE $${course.value}</h3>
 </div>`
 return courseBox;
-
   }

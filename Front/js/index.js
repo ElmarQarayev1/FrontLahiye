@@ -1,4 +1,5 @@
 loadCourses();
+filterCourses();
 function createCourse(course){
     let courseBox=`<div class="col-lg-4 col-md-6">
     <div class="single-course pb-5 mb-70">
@@ -15,8 +16,10 @@ function createCourse(course){
 </div> `
  return courseBox;
 }
+let coursesBox=document.getElementById("courseId");
+
 function loadCourses(){
-    let coursesBox=document.getElementById("courseId");
+    
     fetch("http://localhost:5000/courses")
     .then(response=>response.json())
     .then(data=>{
@@ -25,4 +28,27 @@ function loadCourses(){
             coursesBox.innerHTML+=createdCourseElem;    
         });
     })
+}
+function filterCourses() {
+    document.getElementById("searchbtn").addEventListener("click", function(e) {
+        let inputValue = document.getElementById("searchCourse").value.toLowerCase().trim();
+        fetch(`http://localhost:5000/courses/search?name=${inputValue}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return response.json();
+            })
+            .then(filteredCourses => {
+                coursesBox.innerHTML = ""; 
+                filteredCourses.forEach(course => {
+                    let createdCourseElem = createCourse(course);
+                    coursesBox.innerHTML+=createdCourseElem;
+                    document.getElementById("searchCourse").value = ""; 
+                });
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+    });
 }
