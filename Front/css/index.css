@@ -6,6 +6,28 @@
 .haveany p{
   color: #fff;
 }
+.imgCourse{
+  padding-top: 140px;
+}
+.fixedMenu {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar2.gotoTop{
+  top: 0;
+}
+.navbar2 {
+  height: 80px; 
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+.navbar2.scrolled {
+  height: 105px; 
+  background-color: #f8f9fa; 
+  opacity: 0.9;
+}
+
 .haveany{
   background-color: red;
 }
@@ -73,8 +95,9 @@ padding-left: 100px;
 }
 
 .img1 img{
-  width: 240px;
-  height: 100px;
+  padding-top: 30px;
+  width: 230px;
+  height: 90px;
 }
 .backimg{
 background: rgba(0, 0, 0, 0) url("/img/banner.jpg") no-repeat scroll center center / cover;

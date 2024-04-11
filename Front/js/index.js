@@ -72,3 +72,20 @@ document.addEventListener("DOMContentLoaded", function() {
     scrollToTopBtn.style.right = "20px";
     scrollToTopBtn.style.display = "none";
 });
+window.addEventListener("scroll", function() {
+    let navbar = document.querySelector(".navbar2");
+    let imgCourse=this.document.querySelector(".imgCourse");
+
+    if (window.scrollY > 5) { 
+        imgCourse.style.paddingTop="0px";
+        navbar.classList.add("scrolled");
+        navbar.classList.add("gotoTop");
+        imgCourse.classList.add("gotoTop")
+    } else {
+        imgCourse.style.paddingTop="140px";
+        navbar.classList.remove("scrolled");
+        navbar.classList.remove("gotoTop");
+    }
+});
+
+
