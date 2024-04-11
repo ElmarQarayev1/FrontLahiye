@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{4BA4689B-4344-4E56-99B4-31B860D36EBC}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Course.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FrontLahiyeBack/Program.cs">
     <Files>
-      <File FileName="FrontLahiyeBack/Program.cs" Line="21" Column="1" />
+      <File FileName="FrontLahiyeBack/Program.cs" Line="46" Column="11" />
       <File FileName="FrontLahiyeBack/FrontLahiyeBack.csproj" />
-      <File FileName="Core/Course.cs" Line="28" Column="1" />
-      <File FileName="Data/AppDbContext.cs" Line="18" Column="1" />
+      <File FileName="Core/Course.cs" />
+      <File FileName="Data/AppDbContext.cs" />
       <File FileName="Data/Migrations/AppDbContextModelSnapshot.cs" />
       <File FileName="FrontLahiyeBack/Properties/launchSettings.json" />
     </Files>
@@ -15,18 +18,15 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FrontLahiyeBack">
-            <Node name="Core" expanded="True">
-              <Node name="Course.cs" selected="True" />
-            </Node>
+            <Node name="Core" expanded="True" />
             <Node name="Data" expanded="True" />
-            <Node name="FrontLahiyeBack" expanded="True" />
+            <Node name="FrontLahiyeBack" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.FrontLahiyeBack PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
 </Properties>

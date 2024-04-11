@@ -259,8 +259,34 @@ font-family: 'Open Sans', sans-serif;
 
 #scrollToTopBtn{
   border: 0.1px solid black;
-  width: 40px;
+  border-radius: 4px;
+  width: 50px;
   height: 40px;
   background-color:red;
   color: #fff;
+  transition: 0.4s;
+}
+#scrollToTopBtn:hover{
+  background-color:#f30f0f;
+  scale: 1.1;
+}
+#scrollToTopBtn:hover i{
+  scale: 1.4;
+
+}
+#loadMoreBtn{
+  border: 0.1px solid black;
+  border-radius: 4px;
+  width: 50px;
+  height: 40px;
+  background-color:#2C2B5E;
+  color: #fff;
+  transition: 0.4s;
+}
+#loadMoreBtn:hover{
+  background-color:#5b5a9f;
+  scale: 1.1;
+}
+#loadMoreBtn:hover i{
+  scale: 1.4;
 }
