@@ -21,6 +21,8 @@ namespace Core
 
 		public int StudentCount { get; set; }
 
+		public int Value { get; set; }
+
 	}
 }
 

@@ -9,7 +9,7 @@ function createCourse(course){
         <div class="coursecontent pl-4 pt-4">
             <h3><a href="course-details.html">${course.name}</a></h3>
             <p>${course.description}</p>
-            <button class="btn btn-lg"><a data-id="${course.id}" href="course-details.html">read more</a></button>
+            <button class="btn btn-lg"><a data-id="${course.id}" href="course-details.html?id=${course.id}">read more</a></button>
         </div>   
     </div>
 </div> `
