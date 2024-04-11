@@ -302,12 +302,21 @@
   }
   #scrollToTopBtn{
     border: 0.1px solid black;
-    width: 40px;
+    border-radius: 4px;
+    width: 50px;
     height: 40px;
     background-color:red;
     color: #fff;
+    transition: 0.4s;
   }
-
+  #scrollToTopBtn:hover{
+    background-color:#f30f0f;
+    scale: 1.1;
+  }
+  #scrollToTopBtn:hover i{
+    scale: 1.4;
+  
+  }
 
 
 

@@ -98,7 +98,7 @@ window.addEventListener("scroll", function() {
 });
 
 function loadMore() {
-    visibleCourses += 3; 
+    visibleCourses += 6; 
     showCourses(); 
     if (visibleCourses >= courses.length) {
         document.getElementById("loadMoreBtn").style.display = "none";
