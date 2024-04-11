@@ -52,3 +52,23 @@ function filterCourses() {
             });
     });
 }
+document.addEventListener("DOMContentLoaded", function() {
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 140) { 
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    });
+    scrollToTopBtn.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+    scrollToTopBtn.style.position = "fixed";
+    scrollToTopBtn.style.bottom = "20px";
+    scrollToTopBtn.style.right = "20px";
+    scrollToTopBtn.style.display = "none";
+});
