@@ -1,70 +1,78 @@
 
 * {
-    text-decoration: none;
-    list-style: none;
-  }
-  .haveany p{
-    color: #fff;
-  }
-  .haveany{
-    background-color: red;
-  }
-  .imgCourse{
-    padding-top: 140px;
-  }
-  .fixedMenu {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-  }
-  .navbar2.gotoTop{
-    top: 0;
-  }
-  .navbar2 {
-    height: 80px; 
-    background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
-  }
-  .navbar2.scrolled {
-    height: 105px; 
-    background-color: #f8f9fa; 
-    opacity: 0.9;
-  }
-   .buttons{
-    background-color: #2C2B5E;
-   }
-  .buttons li {
-    padding-top: 20px;
-    padding-left: 90px;
-  }
-  .buttons li a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #ffffff;
-    transition: 0.5s;
-  }
-  .buttons li a:hover {
-    color: red;
-  }
-  p {
-    color: #000000;
-    font-size: 15px;
-  }
-  .navbar2 ul{
-  padding-left: 100px;
-  }
-  .navbar2 ul li{
-    padding: 17px;
-  }
-  .navbar2 ul li a{
-    text-decoration: none;
-    color: #000000;
-  }
-  .navbar2{
-    height: 140px;
-    background-color: #ffffff;
-    
-  }
+  text-decoration: none;
+  list-style: none;
+}
+.haveany p{
+  color: #fff;
+}
+.imgCourse{
+  padding-top: 10%;
+}
+.fixedMenu {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar2.gotoTop{
+  top: 0;
+}
+.navbar2 {
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+.navbar2.scrolled {
+  height: 14%; 
+  background-color: #f8f9fa; 
+  opacity: 0.9;
+}
+.haveany{
+  background-color: red;
+}
+ .buttons{
+  background-color: #2C2B5E;
+ }
+.buttons li {
+  padding-top: 4%;
+  padding-left: 30%;
+}
+.buttons li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s;
+  font-weight: 400;
+}
+.buttons li a:hover {
+  color: red;
+}
+p {
+  color: #000000;
+  font-size: 15px;
+}
+.navbar2 ul{
+padding-left: 17%;
+}
+.navbar2 ul li{
+  padding: 17px;
+}
+#courseId p{
+  color: gray;
+}
+#courseId h3{
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.navbar2 ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+.navbar2{
+  height: 19%;
+  background-color: #ffffff;
+  
+}
   .searchbut a{
     transition: 0.5s;
     color: #000000;
@@ -412,25 +420,28 @@
     scale: 1.4;
   
   }
-  #searchbtn{
-    font-weight: 500;
-    width: 200px;
-    font-size: 17px;
-    color: #fff;
-    background-color: red;
-    margin-bottom: 10px;
-    float: right;
-  }
-  #searchbtn:hover{
-    background-color: #2C2B5E;
-    color: #fff;
-  }
+  
   @media screen and (max-width: 768px) {
     .hamburger {
         display: none;
     }
+    .haveany p{
+      text-align: center;
+    }
+    .aboutC{
+      padding-top: 20%;
+      
+     }
+     .imgCourse{
+      padding-top: 10%;
+    }
+    .navbar2{
+      height: 22%;
+      background-color: #ffffff;
+      
+    }
   }
-
+  
 
 
 

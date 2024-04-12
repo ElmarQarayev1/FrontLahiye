@@ -1,70 +1,78 @@
 
 * {
-    text-decoration: none;
-    list-style: none;
-  }
-  .haveany p{
-    color: #fff;
-  }
-  .haveany{
-    background-color: red;
-  }
-  .imgCourse{
-    padding-top: 140px;
-  }
-  .fixedMenu {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-  }
-  .navbar2.gotoTop{
-    top: 0;
-  }
-  .navbar2 {
-    height: 80px; 
-    background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
-  }
-  .navbar2.scrolled {
-    height: 105px; 
-    background-color: #f8f9fa; 
-    opacity: 0.9;
-  }
-   .buttons{
-    background-color: #2C2B5E;
-   }
-  .buttons li {
-    padding-top: 20px;
-    padding-left: 90px;
-  }
-  .buttons li a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #ffffff;
-    transition: 0.5s;
-  }
-  .buttons li a:hover {
-    color: red;
-  }
-  p {
-    color: #000000;
-    font-size: 15px;
-  }
-  .navbar2 ul{
-  padding-left: 100px;
-  }
-  .navbar2 ul li{
-    padding: 17px;
-  }
-  .navbar2 ul li a{
-    text-decoration: none;
-    color: #000000;
-  }
-  .navbar2{
-    height: 140px;
-    background-color: #ffffff;
-    
-  }
+  text-decoration: none;
+  list-style: none;
+}
+.haveany p{
+  color: #fff;
+}
+.imgCourse{
+  padding-top: 10%;
+}
+.fixedMenu {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar2.gotoTop{
+  top: 0;
+}
+.navbar2 {
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+.navbar2.scrolled {
+  height: 14%; 
+  background-color: #f8f9fa; 
+  opacity: 0.9;
+}
+.haveany{
+  background-color: red;
+}
+ .buttons{
+  background-color: #2C2B5E;
+ }
+.buttons li {
+  padding-top: 4%;
+  padding-left: 30%;
+}
+.buttons li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s;
+  font-weight: 400;
+}
+.buttons li a:hover {
+  color: red;
+}
+p {
+  color: #000000;
+  font-size: 15px;
+}
+.navbar2 ul{
+padding-left: 17%;
+}
+.navbar2 ul li{
+  padding: 17px;
+}
+#courseId p{
+  color: gray;
+}
+#courseId h3{
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.navbar2 ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+.navbar2{
+  height: 19%;
+  background-color: #ffffff;
+  
+}
   .searchbut a{
     transition: 0.5s;
     color: #000000;
@@ -99,7 +107,7 @@
   filter: brightness(20%);    
   }
   .aboutC{
-  padding-top: 120px;
+  padding-top: 10%;
   font-size: 40px;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -113,7 +121,7 @@
     font-size: 17px;
     color: #fff;
     background-color: red;
-    margin-bottom: 10px;
+    
   
   }
   .searchcourses{
@@ -148,22 +156,6 @@
     filter: brightness(80%);
     scale: 1.01;
   }
-  .emailsend{
-    padding-top: 30px;
-  }
-  .emailsend input{
-     margin-left: 150px;
-    height: 45px;
-    width: 700px;
-  }
-  .emailsend button{
-    color: #fff;
-    transition: 0.3s;
-    background-color: red;
-  }
-  .emailsend button:hover{
-    background-color:#2C2B5E;
-  }
   .subscribe-content h2{
     text-transform: uppercase;
   }
@@ -174,9 +166,8 @@
   .subscribe-area {
     height: 40vb;
     background-color: rgb(245, 243, 243);
-    padding-top: 100px;
+    padding-top: 5%;
   }
-  
   .footer-social ul li{
     display: inline-block;
     padding: 10px;
@@ -260,7 +251,7 @@
   }
   .contact-contents .contact-icon{
     display: block;
-    margin-left: 160px;
+    margin-left: 45%;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -331,7 +322,7 @@
     color: #fff;
   }
   .subscribe-area .input-group{
-    padding-left: 200px;
+    padding-left: 18%;
     text-align: center;
     width: 950px;
   }
@@ -339,7 +330,23 @@
     .hamburger {
         display: none;
     }
+    .haveany p{
+      text-align: center;
+    }
+    .aboutC{
+      padding-top: 20%;
+      
+     }
+     .imgCourse{
+      padding-top: 10%;
+    }
+    .navbar2{
+      height: 22%;
+      background-color: #ffffff;
+      
+    }
   }
+  
 
 
 
