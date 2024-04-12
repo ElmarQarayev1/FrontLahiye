@@ -412,6 +412,24 @@
     scale: 1.4;
   
   }
+  #searchbtn{
+    font-weight: 500;
+    width: 200px;
+    font-size: 17px;
+    color: #fff;
+    background-color: red;
+    margin-bottom: 10px;
+    float: right;
+  }
+  #searchbtn:hover{
+    background-color: #2C2B5E;
+    color: #fff;
+  }
+  @media screen and (max-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+  }
 
 
 

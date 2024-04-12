@@ -7,7 +7,7 @@
   color: #fff;
 }
 .imgCourse{
-  padding-top: 140px;
+  padding-top: 9%;
 }
 .fixedMenu {
   position: fixed;
@@ -18,16 +18,14 @@
   top: 0;
 }
 .navbar2 {
-  height: 80px; 
   background-color: #fff; 
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 .navbar2.scrolled {
-  height: 105px; 
+  height: 14%; 
   background-color: #f8f9fa; 
   opacity: 0.9;
 }
-
 .haveany{
   background-color: red;
 }
@@ -35,14 +33,15 @@
   background-color: #2C2B5E;
  }
 .buttons li {
-  padding-top: 20px;
-  padding-left: 90px;
+  padding-top: 4%;
+  padding-left: 30%;
 }
 .buttons li a {
   font-size: 18px;
   text-decoration: none;
   color: #ffffff;
   transition: 0.5s;
+  font-weight: 400;
 }
 .buttons li a:hover {
   color: red;
@@ -52,7 +51,7 @@ p {
   font-size: 15px;
 }
 .navbar2 ul{
-padding-left: 100px;
+padding-left: 17%;
 }
 .navbar2 ul li{
   padding: 17px;
@@ -70,7 +69,7 @@ padding-left: 100px;
   color: #000000;
 }
 .navbar2{
-  height: 140px;
+  height: 19%;
   background-color: #ffffff;
   
 }
@@ -95,6 +94,7 @@ padding-left: 100px;
 }
 
 .img1 img{
+  padding-left: 30px;
   padding-top: 30px;
   width: 230px;
   height: 90px;
@@ -108,7 +108,7 @@ height: 300px;
 filter: brightness(20%);    
 }
 .aboutC{
-padding-top: 120px;
+padding-top: 10%;
 font-size: 40px;
 color: #fff;
 font-family: 'Open Sans', sans-serif;
@@ -122,11 +122,25 @@ position: absolute;
   font-size: 17px;
   color: #fff;
   background-color: red;
+  float: right;
+}
+#searchbtn{
+  font-weight: 500;
+  width: 200px;
+  font-size: 17px;
+  color: #fff;
+  background-color: red;
   margin-bottom: 10px;
   float: right;
 }
-.buttonsearch form input{
-  width: 1000px;
+#searchbtn:hover{
+  background-color: #2C2B5E;
+  color: #fff;
+}
+.subscribe-area .input-group{
+  padding-left: 17%;
+  text-align: center;
+  width: 950px;
 }
 .searchcourses{
   background: #2C2B5E;
@@ -147,6 +161,8 @@ font-family: 'Open Sans', sans-serif;
   background-color: red;
 }
 .coursecontent button a{
+  font-size: 15px;
+  font-weight: 500;
   color: white;
 }
 .coursecontent h3 a:hover{
@@ -160,22 +176,7 @@ font-family: 'Open Sans', sans-serif;
   filter: brightness(80%);
   scale: 1.01;
 }
-.emailsend{
-  padding-top: 30px;
-}
-.emailsend input{
-   margin-left: 150px;
-  height: 45px;
-  width: 700px;
-}
-.emailsend button{
-  color: #fff;
-  transition: 0.3s;
-  background-color: red;
-}
-.emailsend button:hover{
-  background-color:#2C2B5E;
-}
+
 .subscribe-content h2{
   text-transform: uppercase;
 }
@@ -186,7 +187,7 @@ font-family: 'Open Sans', sans-serif;
 .subscribe-area {
   height: 40vb;
   background-color: rgb(245, 243, 243);
-  padding-top: 100px;
+  padding-top: 6%;
 }
 
 .footer-social ul li{
@@ -290,3 +291,20 @@ font-family: 'Open Sans', sans-serif;
 #loadMoreBtn:hover i{
   scale: 1.4;
 }
+@media screen and (max-width: 768px) {
+  .hamburger {
+      display: none;
+  }
+  .haveany p{
+    text-align: center;
+  }
+  .aboutC{
+    padding-top: 20%;
+    
+   }
+   .imgCourse{
+    padding-top: 10%;
+  }
+}
+
+
