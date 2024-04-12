@@ -107,5 +107,21 @@ function loadMore() {
 
 document.getElementById("loadMoreBtn").addEventListener("click", loadMore); 
 
+let searchbutton=document.querySelector(".ahref");
+let searchopen=document.querySelector(".search-open");
+
+let check=false;
+searchbutton.addEventListener("click",function(){
+    check=!check;
+    
+    if(check){
+
+        searchopen.style.display="block";
+    }
+    else{
+        searchopen.style.display="none";
+    }  
+})
+
 loadMoreCourses(); 
 filterCourses(); 

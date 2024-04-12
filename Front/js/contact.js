@@ -33,3 +33,17 @@ window.addEventListener("scroll", function() {
         navbar.classList.remove("gotoTop");
     }
 });
+let searchbutton=document.querySelector(".ahref");
+
+let check=false;
+searchbutton.addEventListener("click",function(){
+    check=!check;
+    let searchopen=document.querySelector(".search-open");
+    if(check){
+
+        searchopen.style.display="block";
+    }
+    else{
+        searchopen.style.display="none";
+    }  
+})

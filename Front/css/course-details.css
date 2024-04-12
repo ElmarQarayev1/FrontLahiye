@@ -420,6 +420,23 @@ padding-left: 17%;
     scale: 1.4;
   
   }
+  .search-open{
+    display: none;
+    padding-top: 1%;
+    padding-right: 5%;
+    text-align: right;
+  }
+  .search-open  button{
+    border: 1.4px solid rgb(252, 234, 199);
+    width: 40px;
+    height: 40px;
+    background-color: #5b5a9f;
+    color: white;
+  }
+  .search-open input{
+    border: 1.4px solid rgb(250, 232, 198);
+    height: 40px;
+  }
   
   @media screen and (max-width: 768px) {
     .hamburger {
