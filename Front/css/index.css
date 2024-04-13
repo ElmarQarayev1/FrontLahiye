@@ -69,13 +69,12 @@ padding-left: 17%;
   font-weight: 700;
   font-size: 19px;
 }
-
 .navbar2 ul li a{
   text-decoration: none;
   color: #000000;
 }
 .navbar2{
-  height: 19%;
+  height: 21%;
   background-color: #ffffff;
   
 }
@@ -298,7 +297,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .search-open{
   display: none;
-  padding-top: 1%;
+  padding-top: 2.3%;
   padding-right: 5%;
   text-align: right;
 }
@@ -336,7 +335,32 @@ font-family: 'Open Sans', sans-serif;
 #searchResults div a:hover{
   color: #fe1414;
 } 
-
+.hamburgerXX ul li {
+  display: inline-block;
+}
+.hamburgerXX{
+  top: 0;
+  margin-left: 350px;
+  margin-bottom: 900px;
+}
+.diss{
+  display: none;
+}
+.hamburgerXXX ul{
+  display: flex;
+  flex-direction: column;
+}
+.hamburgerXXX ul li{
+ padding: 3px;
+}
+.hamburgerXXX ul{
+  margin-right: 300px;
+}
+.hamburgerXXX{
+  width: 100%;
+  height: 300px;
+  background-color: #2C2B5E;
+}
 @media screen and (max-width: 768px) {
   #searchResults {
     width: 100%; 
@@ -345,6 +369,12 @@ font-family: 'Open Sans', sans-serif;
   }
 }
 @media screen and (max-width: 768px) {
+  .searchRes{
+    text-align: center;
+    margin-right: 13%;
+    width: 100%;
+  }
+
   .hamburger {
       display: none;
   }
@@ -362,4 +392,15 @@ font-family: 'Open Sans', sans-serif;
     height: 22%;
     background-color: #ffffff; 
   }
+  .diss{
+    display: block;
+  }
+  .nothamburgerXX{
+    display: none;
+  }
+  .diss{
+    display: none;
+  }
+  
+
 }

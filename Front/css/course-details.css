@@ -28,7 +28,7 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
 }
 .navbar2.scrolled {
-  height: 14%; 
+  height: 17%; 
   background-color: #f8f9fa; 
   opacity: 0.9;
 }
@@ -75,7 +75,7 @@ padding-left: 17%;
   color: #000000;
 }
 .navbar2{
-  height: 19%;
+  height: 21%;
   background-color: #ffffff;
   
 }
@@ -428,7 +428,7 @@ padding-left: 17%;
   }
   .search-open{
     display: none;
-    padding-top: 1%;
+    padding-top: 2.3%;
     padding-right: 5%;
     text-align: right;
   }
