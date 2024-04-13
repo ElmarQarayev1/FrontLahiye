@@ -307,6 +307,30 @@ font-family: 'Open Sans', sans-serif;
   border: 1.4px solid rgb(250, 232, 198);
   height: 40px;
 }
+#searchResults {
+  margin-right: 4.2%;
+  width: 245px;
+  height: 400px;
+  float: right;
+  padding: 20px;
+  background-color: #5b5a9f;
+  overflow: hidden; /* İçeriği sınırları içinde tut, gizle */
+  border-radius: 5px;
+}
+
+#searchResults div{
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+} 
+
+@media screen and (max-width: 768px) {
+  #searchResults {
+    width: 100%; 
+    height: auto; 
+    overflow: auto; 
+  }
+}
 
 @media screen and (max-width: 768px) {
   .hamburger {
@@ -329,5 +353,4 @@ font-family: 'Open Sans', sans-serif;
   }
   
 }
-
 

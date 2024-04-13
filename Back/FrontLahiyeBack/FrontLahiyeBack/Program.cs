@@ -31,8 +31,7 @@ app.MapGet("/courses", () =>
     return appDbContext.Courses.ToList();
 });
 app.MapGet("/courses/search", (string name) =>
-{
-    return appDbContext.Courses.Where(x => x.Name.Contains(name)).ToList();
+{    return appDbContext.Courses.Where(x => x.Name.Contains(name)).ToList();
 });
 
 app.MapGet("/courses/{id}", (int id) =>
