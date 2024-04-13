@@ -15,7 +15,6 @@ function createCourse(course) {
             </div>
         </div>
     </div>`;
-
     return courseBox;
 }
 function createAelement(course){
@@ -43,8 +42,15 @@ function showCourses() {
         document.getElementById("loadMoreBtn").style.display = "none";
     }
 }
+function loadMore() {
+    visibleCourses += 6; 
+    showCourses(); 
+    if (visibleCourses >= courses.length) {
+        document.getElementById("loadMoreBtn").style.display = "none";
+    }
+}
 
-document.getElementById("loadMoreBtn").addEventListener("click", loadMoreCourses);
+document.getElementById("loadMoreBtn").addEventListener("click", loadMore); 
 
 function filterCourses() {
     document.getElementById("searchbtn").addEventListener("click", function(e) {
@@ -113,7 +119,6 @@ function FilterSearchOpen() {
         });
     });
 }
-
 function displaySearchResults(courses, searchResults) {
     searchResults.innerHTML = "";
     if (courses.length > 0) {
@@ -126,16 +131,12 @@ function displaySearchResults(courses, searchResults) {
         searchResults.style.display = 'none';
     }
 }
-
-
 document.addEventListener('click', function(e) {
     let searchResults = document.getElementById('searchResults');
     if (!searchResults.contains(e.target) && e.target.id !== 'searchopen') {
         searchResults.style.display = 'none';
     }
 });
-
-
 document.addEventListener("DOMContentLoaded", function() {
   let scrollToTopBtn = document.getElementById("scrollToTopBtn");
     window.addEventListener("scroll", function() {
@@ -172,22 +173,8 @@ window.addEventListener("scroll", function() {
         navbar.classList.remove("gotoTop");
     }
 });
-
-function loadMore() {
-    visibleCourses += 6; 
-    showCourses(); 
-    if (visibleCourses >= courses.length) {
-        document.getElementById("loadMoreBtn").style.display = "none";
-    }
-}
-
-document.getElementById("loadMoreBtn").addEventListener("click", loadMore); 
-
 let searchbutton=document.querySelector(".ahref");
 let searchopen=document.querySelector(".search-open");
-
-
-
 let check=false;
 searchbutton.addEventListener("click",function(){
     check=!check;

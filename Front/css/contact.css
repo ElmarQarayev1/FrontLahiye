@@ -3,6 +3,12 @@
   text-decoration: none;
   list-style: none;
 }
+.haveany{
+  border-right: 5px solid white;
+}
+.buttons{
+  border-left: 2px solid white;
+}
 .haveany p{
   color: #fff;
 }
@@ -343,6 +349,7 @@ padding-left: 17%;
     border: 1.4px solid rgb(250, 232, 198);
     height: 40px;
   }
+  
   @media screen and (max-width: 768px) {
     .hamburger {
         display: none;

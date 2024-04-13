@@ -18,6 +18,7 @@ courseDetailsBox.innerHTML=courseDetails;
     console.error("Error occurred: " + error);
   });
   }
+
   function createCourseDetails(course){
     let courseBox=`<div class="course-details-right">
     <h3 class="pt-5 pl-4 pb-3">COURSE FEATURES</h3>
@@ -34,6 +35,7 @@ courseDetailsBox.innerHTML=courseDetails;
 </div>`
 return courseBox;
   }
+
   document.addEventListener("DOMContentLoaded", function() {
     const scrollToTopBtn = document.getElementById("scrollToTopBtn");
     window.addEventListener("scroll", function() {
@@ -54,6 +56,8 @@ return courseBox;
     scrollToTopBtn.style.right = "20px";
     scrollToTopBtn.style.display = "none";
 });
+
+
 window.addEventListener("scroll", function() {
   let navbar = document.querySelector(".navbar2");
   let imgCourse=this.document.querySelector(".imgCourse");
@@ -69,6 +73,7 @@ window.addEventListener("scroll", function() {
       navbar.classList.remove("gotoTop");
   }
 });
+
 let searchbutton=document.querySelector(".ahref");
 
 let check=false;
@@ -83,6 +88,7 @@ searchbutton.addEventListener("click",function(){
         searchopen.style.display="none";
     }  
 })
+
 
 
 

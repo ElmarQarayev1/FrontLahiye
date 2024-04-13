@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{4BA4689B-4344-4E56-99B4-31B860D36EBC}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="FrontLahiyeBack/Program.cs">
     <Files>
-      <File FileName="FrontLahiyeBack/Program.cs" Line="31" Column="1" />
+      <File FileName="FrontLahiyeBack/Program.cs" Line="23" Column="1" />
       <File FileName="FrontLahiyeBack/FrontLahiyeBack.csproj" />
       <File FileName="Core/Course.cs" />
       <File FileName="Data/AppDbContext.cs" />
@@ -24,9 +26,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.FrontLahiyeBack PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    let scrollToTopBtn = document.getElementById("scrollToTopBtn");
     window.addEventListener("scroll", function() {
         if (window.scrollY > 140) { 
             scrollToTopBtn.style.display = "block";
@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     scrollToTopBtn.style.right = "20px";
     scrollToTopBtn.style.display = "none";
 });
+
 window.addEventListener("scroll", function() {
     let navbar = document.querySelector(".navbar2");
     let imgCourse=this.document.querySelector(".imgCourse");
@@ -33,8 +34,8 @@ window.addEventListener("scroll", function() {
         navbar.classList.remove("gotoTop");
     }
 });
-let searchbutton=document.querySelector(".ahref");
 
+let searchbutton=document.querySelector(".ahref");
 let check=false;
 searchbutton.addEventListener("click",function(){
     check=!check;

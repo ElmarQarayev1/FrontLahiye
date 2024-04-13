@@ -3,6 +3,12 @@
   text-decoration: none;
   list-style: none;
 }
+.haveany{
+  border-right: 5px solid white;
+}
+.buttons{
+  border-left: 2px solid white;
+}
 .haveany p{
   color: #fff;
 }
@@ -321,7 +327,7 @@ font-family: 'Open Sans', sans-serif;
   padding: 10px;
   text-align: center;
   transition: 0.7s;
-} 
+}
 #searchResults div a{
   text-decoration: none;
   color: #fff;
@@ -354,8 +360,6 @@ font-family: 'Open Sans', sans-serif;
   }
   .navbar2{
     height: 22%;
-    background-color: #ffffff;
-    
+    background-color: #ffffff; 
   }
-  
 }
