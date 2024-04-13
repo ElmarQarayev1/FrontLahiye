@@ -15,7 +15,14 @@ function createCourse(course) {
             </div>
         </div>
     </div>`;
+
     return courseBox;
+}
+function createAelement(course){
+    let divA=` <div>
+    <a href="course-details.html?id=${course.id}">${course.name}</a>
+  </div>`;
+  return divA;
 }
 
 function loadMoreCourses() {
@@ -85,7 +92,7 @@ function filterCoursesKey() {
 }
 function FilterSearchOpen() {
     
-    const searchResults = document.getElementById('searchResults');
+    let searchResults = document.getElementById('searchResults');
     
     searchopen.addEventListener("input", function(e) {
         let inputValue = e.target.value.toLowerCase().trim();
@@ -107,23 +114,22 @@ function FilterSearchOpen() {
     });
 }
 
-function displaySearchResults(results, container) {
-    container.innerHTML = "";
-    
-    if (results.length > 0) {
-        container.style.display = 'block';
-        
-        results.forEach(course => {
-            const courseDiv = document.createElement('div');
-            courseDiv.textContent = course.name; 
-            container.appendChild(courseDiv);
+function displaySearchResults(courses, searchResults) {
+    searchResults.innerHTML = "";
+    if (courses.length > 0) {
+        searchResults.style.display = 'block';
+        courses.forEach(course => {
+            let courseDiv = createAelement(course);
+            searchResults.innerHTML+=courseDiv;
         });
     } else {
-        container.style.display = 'none';
+        searchResults.style.display = 'none';
     }
 }
+
+
 document.addEventListener('click', function(e) {
-    const searchResults = document.getElementById('searchResults');
+    let searchResults = document.getElementById('searchResults');
     if (!searchResults.contains(e.target) && e.target.id !== 'searchopen') {
         searchResults.style.display = 'none';
     }
@@ -131,7 +137,7 @@ document.addEventListener('click', function(e) {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  let scrollToTopBtn = document.getElementById("scrollToTopBtn");
     window.addEventListener("scroll", function() {
         if (window.scrollY > 140) { 
             scrollToTopBtn.style.display = "block";

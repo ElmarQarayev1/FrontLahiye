@@ -314,14 +314,21 @@ font-family: 'Open Sans', sans-serif;
   float: right;
   padding: 20px;
   background-color: #5b5a9f;
-  overflow: hidden; /* İçeriği sınırları içinde tut, gizle */
+  overflow: hidden;
   border-radius: 5px;
 }
-
 #searchResults div{
   padding: 10px;
-  color: #fff;
   text-align: center;
+  transition: 0.7s;
+} 
+#searchResults div a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#searchResults div a:hover{
+  color: #fe1414;
 } 
 
 @media screen and (max-width: 768px) {
@@ -331,7 +338,6 @@ font-family: 'Open Sans', sans-serif;
     overflow: auto; 
   }
 }
-
 @media screen and (max-width: 768px) {
   .hamburger {
       display: none;
