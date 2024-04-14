@@ -87,7 +87,7 @@ padding-left: 17%;
     display: block;
     width: 35px;
     height: 35px;
-    background-color: #000000;
+    background-color: #2C2B5E;
     border-radius: 50%;
     transition: 0.5s;
   }
@@ -163,6 +163,8 @@ padding-left: 17%;
     scale: 1.01;
   }
   .subscribe-content h2{
+    font-weight: 600;
+    color: #2C2B5E;
     text-transform: uppercase;
   }
   .subscribe-content p{
@@ -195,7 +197,21 @@ padding-left: 17%;
   .footer-social ul li i{
     transition: 0.4s;
     padding: 11px 11px; 
-    color: #000000;
+    color: gray;
+  }
+  .single-widget ul li {
+    padding: 3px;
+  }
+  .footer-social ul li a:hover{
+    background-color: red;
+  }
+  .footer-social ul li a i:hover{
+    color: #fff;
+  }
+  .footer-social ul li i{
+    transition: 0.4s;
+    padding: 11px 11px; 
+    color: gray;
   }
   .single-widget ul li {
     padding: 3px;
@@ -204,24 +220,41 @@ padding-left: 17%;
     font-size: 13px;
     color: gray;
   }
-  .single-widget h4{
-    font-size: 17px;
-  
-  }
+  .single-widget h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #606060;
+    margin-bottom: 45px;
+    position: relative;
+    }
+  .single-widget h4::before {
+    background: #606060 none repeat scroll 0 0;
+    bottom: -13px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 45px;
+    }
+  .single-widget h4::after {
+    background: #606060 none repeat scroll 0 0;
+    bottom: -10px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 57px;
+    }
   .single-widget ul li a{
-    font-size: 12px;
+    font-size: 15px;
     transition: 0.3s;
     text-decoration: none;
     color: gray;
   }
   .single-widget ul li a:hover{
     color: red;
-  }
-  .single-widget hr{
-   
-    color: rgb(61, 61, 61);
-    border: 1px solid black;
-    width: 30px;
   }
   .footer-bottom{
     height: 80px;
@@ -328,9 +361,9 @@ padding-left: 17%;
     color: #fff;
   }
   .subscribe-area .input-group{
-    padding-left: 18%;
+    padding-left: 19%;
     text-align: center;
-    width: 950px;
+    width: 1000px;
   }
   .search-open{
     display: none;
@@ -370,9 +403,4 @@ padding-left: 17%;
       
     }
   }
-  
-
-
-
-
   
