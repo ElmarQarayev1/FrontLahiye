@@ -201,10 +201,11 @@ font-family: 'Open Sans', sans-serif;
   padding: 10px;
 }
 .footer-social ul li a{
+  border: 0.3px solid gray;
   transition: 0.5s;
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   background-color: #ffffff;
   border-radius: 50%;
 }
@@ -216,7 +217,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .footer-social ul li i{
   transition: 0.4s;
-  padding: 11px 11px; 
+  padding: 8px 9px; 
   color: gray;
 }
 .single-widget ul li {
@@ -354,17 +355,7 @@ font-family: 'Open Sans', sans-serif;
 #searchResults div a:hover{
   color: #fe1414;
 } 
-.hamburgerXX ul li {
-  display: inline-block;
-}
-.hamburgerXX{
-  top: 0;
-  margin-left: 350px;
-  margin-bottom: 900px;
-}
-.diss{
-  display: none;
-}
+
 
 @media screen and (max-width: 768px) {
   #searchResults {
@@ -378,6 +369,9 @@ font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin-right: 13%;
     width: 100%;
+  }
+  .vvv{
+    padding-right: 1000px;
   }
 
   .hamburger {

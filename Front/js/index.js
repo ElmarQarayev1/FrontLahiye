@@ -161,7 +161,6 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener("scroll", function() {
     let navbar = document.querySelector(".navbar2");
     let imgCourse = this.document.querySelector(".imgCourse");
-
     if (window.scrollY > 5) { 
         imgCourse.style.paddingTop = "0px";
         navbar.classList.add("scrolled");

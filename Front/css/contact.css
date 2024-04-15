@@ -181,10 +181,11 @@ padding-left: 17%;
     padding: 10px;
   }
   .footer-social ul li a{
+    border: 0.3px solid gray;
     transition: 0.5s;
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     background-color: #ffffff;
     border-radius: 50%;
   }
@@ -196,7 +197,7 @@ padding-left: 17%;
   }
   .footer-social ul li i{
     transition: 0.4s;
-    padding: 11px 11px; 
+    padding: 8px 9px; 
     color: gray;
   }
   .single-widget ul li {
@@ -208,11 +209,7 @@ padding-left: 17%;
   .footer-social ul li a i:hover{
     color: #fff;
   }
-  .footer-social ul li i{
-    transition: 0.4s;
-    padding: 11px 11px; 
-    color: gray;
-  }
+  
   .single-widget ul li {
     padding: 3px;
   }
